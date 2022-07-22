@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  #quote-box {
+    width: 450px;
+    padding: 40px;
+    color: #282c34;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 5%;
+    #author {
+      text-align: end;
+    }
+    .actions {
+      display: flex;
+      align-items: center;
+    }
+
+    #tweet-quote {
+      background-color: #ffffff;
+      border-color: #9139b5;
+      display: inline-block;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+      font-size: 20px;
+      color: #ffffff;
+    }
+    #tweet-quote {
+      float: left;
+      padding-left: 5%;
+      margin-right: 10px;
+      padding: 7px 10px;
+      text-decoration: none;
+    }
+    #new-quote {
+      background-color: #9139b5;
+      border-color: #9139b5;
+      display: inline-block;
+      border-radius: 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+      font-size: 20px;
+      color: #ffffff;
+      margin: 2rem 3rem 0rem 3rem;
+      margin-top: 39px;
+    }
+    #new-quote:hover {
+      opacity: 0.8;
+    }
+    #text {
+      font-weight: 500;
+      font-size: 2rem;
+      padding-right: 1rem;
+    }
+    #twitter-icon {
+      border-radius: 1px;
+    }
+    #button {
+      font-size: 1.3rem;
+      padding: 0.4rem 0.8rem;
+      border-radius: 0.5rem;
+      margin: 2rem 3rem 0rem 3rem;
+    }
+
+    #button:focus {
+      outline: 0;
+    }
+
+    #button:hover {
+      opacity: 0.8;
+    }
+  }
+  .App-header {
+    background-color: #9139b5;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .authorBaby {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(2px + 2vmin);
+  }
+}
